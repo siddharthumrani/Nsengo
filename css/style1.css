@@ -240,7 +240,7 @@ h1, h2, h3, h4, h5,
   color: #000 !important; }
 
 .bg-black {
-  background: #000 !important; }
+  background: transparent !important; }
 
 .color-black-opacity-5 {
   color: rgba(0, 0, 0, 0.5); }
