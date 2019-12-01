@@ -1,0 +1,16 @@
+1. Use colour template of Nsengo. 
+
+2. For active page highlight of menu, use orange instead of yellow
+ -  ffb400 Yellow replaced to f36c3e
+blue 6b76ff replaced with 015845
+
+
+3. Goals - SDG 1,2 13, 17
+
+4. Pictures - Africa related
+
+5. Vision first, then Mission
+
+6. See if it is possible that for language we can show flag instead of text.
+
+Done: 1,2,5,
