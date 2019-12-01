@@ -3339,6 +3339,20 @@
 .icon-folder_special:before {
   content: "\e617";
 }
+
+.icon-keyboard_arrow_down:before {
+  content: "\e313";
+}
+.icon-keyboard_arrow_left:before {
+  content: "\e314";
+}
+.icon-keyboard_arrow_right:before {
+  content: "\e315";
+}
+.icon-keyboard_arrow_up:before {
+  content: "\e316";
+}
+
 .icon-font_download:before {
   content: "\e167";
 }
