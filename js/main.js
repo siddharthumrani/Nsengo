@@ -399,10 +399,23 @@ var siteCarousel = function () {
 		$('.return-to-top').click(function() {      // When arrow is clicked
 			$('body,html').animate({
 			scrollTop : 0                       // Scroll to top of body
-			}, 500);
+			}, 300);
 		});
 	};
-	
+	var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
 
 	// magnific popup
 	$('.image-popup').magnificPopup({

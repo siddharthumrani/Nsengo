@@ -39,7 +39,7 @@
 *::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
-
+@import url('https://fonts.google.com/specimen/Lato');
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -51,8 +51,10 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1rem;
+/*  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+*/ 
+font-family: lato;
+ font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
@@ -144,7 +146,7 @@ a:not([href]):not([tabindex]) {
   color: inherit;
   text-decoration: none; }
   a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
-    color: inherit;
+    color: #fff;
     text-decoration: none; }
   a:not([href]):not([tabindex]):focus {
     outline: 0; }
@@ -8391,7 +8393,7 @@ body {
   font-size: 16px;
   line-height: 1.8;
   font-weight: 600;
-  color: #999999; }
+  background-color: #71c598; }
   body.menu-show {
     overflow: hidden;
     position: fixed;
@@ -8402,10 +8404,10 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #f36c3e; }
+  color: #ffffff; }
   a:hover, a:focus {
     text-decoration: none;
-    color: #015845 !important;
+    color: #f36c3e !important;
     outline: none !important; }
 
 h1, h2, h3, h4, h5,
@@ -8420,7 +8422,7 @@ h1, h2, h3, h4, h5,
 .ftco-navbar-light {
   background: transparent !important;
   position: absolute;
-  top: 20px;
+  
   left: 0;
   right: 0;
   z-index: 3;
@@ -8444,7 +8446,7 @@ h1, h2, h3, h4, h5,
       color: #000000;
       opacity: 1 !important; }
       .ftco-navbar-light.ftco-navbar-light-2 .navbar-nav > .nav-item > .nav-link:hover {
-        color: #f36c3e; }
+        color: #f36c3e !important ;}
       @media (max-width: 991.98px) {
         .ftco-navbar-light.ftco-navbar-light-2 .navbar-nav > .nav-item > .nav-link {
           padding-left: 0;
@@ -8475,21 +8477,56 @@ h1, h2, h3, h4, h5,
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
     font-size: 18px;
     padding-top: 1.8rem;
-    padding-bottom: 1.8rem;
+    /* padding-bottom: 1.8rem; */
     padding-left: 20px;
     padding-right: 20px;
-    font-weight: 700;
+    font-weight: 600;
     color: #fff;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
-      color: #f36c3e; }
+/* AA     color: #015845 !important;*/
+      color: #71c598 !important;
+     font-weight: 650;
+      border-bottom: solid #f36c3e;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+
+    }
+    @media (max-width: 750px){
+      .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
+        color:#f36c3e ;
+        padding-top: 0px;
+        border: none !important;
+      }
+    }
+    @media (max-width: 990px){
+      .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
+        color:#f36c3e ;
+        padding-top: 0px;
+        border: none !important;
+      }
+    }
+    @media (max-width: 320px){
+      .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
+        color:#f36c3e ;
+        padding-top: 0px;
+        border: none !important;
+      }
+    .ftco-heading-2{
+      margin-left: 27%;
+    }
+    .ftco-footer-socia{
+      margin-left: 25%;
+      float: none;
+    }
+    }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
         padding-left: 0;
         padding-right: 0;
-        padding-top: .9rem;
+        padding-top: .9px;
         padding-bottom: .9rem;
-        color: rgba(255, 255, 255, 0.7); }
+        color: rgb(0,0,0); }
         .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
           color: #fff; } }
   .ftco-navbar-light .navbar-nav > .nav-item .dropdown-menu {
@@ -8536,10 +8573,10 @@ h1, h2, h3, h4, h5,
     color: #f36c3e; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item.active > a {
-        color: #fff; } }
+        color: #ff8000; } }
   .ftco-navbar-light .navbar-toggler {
     border: none;
-    color: rgba(255, 255, 255, 0.5) !important;
+    color: rgb(0,0,0) !important;
     cursor: pointer;
     padding-right: 0;
     text-transform: uppercase;
@@ -8548,12 +8585,14 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light .navbar-toggler:focus {
       outline: none !important; }
   .ftco-navbar-light.scrolled {
+/* Charactersitics of the navigation bar that appears when pages are scrolled */
     position: fixed;
     right: 0;
     left: 0;
     top: 0;
     margin-top: -130px;
-    background: #fff !important;
+/* AA   background: #71c598 !important;  */
+    background: #015845 !important;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1); }
     .ftco-navbar-light.scrolled .nav-item.active > a {
@@ -8588,13 +8627,14 @@ h1, h2, h3, h4, h5,
       font-size: 16px;
       letter-spacing: .1em; }
     .ftco-navbar-light.scrolled .nav-link {
-      padding-top: 0.9rem !important;
-      padding-bottom: 0.9rem !important;
-      color: #000000 !important; }
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem !important;
+      color: #ffffff !important; }
       .ftco-navbar-light.scrolled .nav-link.active {
         color: #f36c3e !important; }
     .ftco-navbar-light.scrolled.awake {
       margin-top: 0px;
+      padding: 10px;
       -webkit-transition: .3s all ease-out;
       -o-transition: .3s all ease-out;
       transition: .3s all ease-out; }
@@ -8743,13 +8783,22 @@ h1, h2, h3, h4, h5,
     color: rgba(255, 255, 255, 0.2); }
 
 .ftco-mission h3 {
-  font-weight: 900; }
+  font-weight: 900;
 
+ }
+.ftco-mission1  {
+  border: 3px solid #fff;
+}
+.ftco-mission{
+/*  margin: 3%;
+*/}
 .container {
   max-width: 1180px; }
 
 .bg-light {
-  background: #f8f9fa !important; }
+/* background colour of header */
+/* AA background: #71c598 !important; } */
+  background: #015845 !important; }
 
 .bg-primary {
   background: #f36c3e; }
@@ -8927,7 +8976,7 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 7em 0;
+  padding-top: 7em;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
@@ -9558,7 +9607,8 @@ textarea.form-control {
 
 .contact-section .box {
   width: 100%;
-  display: block; }
+  display: block; 
+  background-color: orange;}
   .contact-section .box .icon {
     width: 100px;
     height: 100px;
@@ -9843,12 +9893,12 @@ textarea.form-control {
 
 .owl-buttons {
   display: none;
-  font-size: 40px !important;
+  /* font-size: 40px !important; */
   font-weight: 20px;
   color: darkorange;
   vertical-align: center !important;
 }
-#myBtn {
+/* #myBtn {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -9875,4 +9925,78 @@ textarea.form-control {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;  
 
+} */
+
+#button {
+  display: inline-block;
+  background-color: #f36c3e;
+  width: 50px;
+  text-align: center;
+  border-radius: 50px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #015845;
+}
+#button:active {
+  background-color: rgb(247, 155, 17);
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (min-width: 500px) {
+
+  #button {
+    margin: 30px;
+  }
+}
+
+.navbar-brand img{
+  width: 175px;
+  height: 70px;
+}
+.ptt{
+  padding-top: 84px !important;
+}
+.contact-section.bg-primary.ptr {
+  margin-top: -35px;
+}
+@media (max-width: 320px){
+  .navbar-brand img {
+    width: 100px;
+    height: 70px;
+  }
+  
+}
+@media (max-width: 360px){
+  .ptt{
+    padding-top: 0 !important;
+  }
+}
+@media (max-width: 990px){
+  .ptt{
+    padding-top: 0 !important;
+  }
+}
+#footer-color .container{
+  background-color: #015845 !important;
+  max-width: 100% !important;
 }

@@ -81,7 +81,7 @@
   color: #a8a8a8; }
 
 .font-gray-7, body {
-  color: #939393; }
+  color: #fff; }
 
 .font-gray-8 {
   color: #7b7b7b; }
@@ -1073,3 +1073,6 @@ h1, h2, h3, h4, h5,
   .post-meta a {
     color: #fff;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+.bg-primary1{
+  background-color: #fff !important;
+}
