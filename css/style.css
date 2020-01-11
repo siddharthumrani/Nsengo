@@ -8834,8 +8834,8 @@ h1, h2, h3, h4, h5,
         background: #f36c3e;
         color: #fff; }
   .btn.btn-black {
-    background: #000000 !important;
-    border: 1px solid #000000 !important;
+    background: #015845 !important;
+    border: 1px solid #fff !important;
     color: #fff !important; }
     .btn.btn-black:hover {
       border: 1px solid #FF8C00 !important;
