@@ -533,7 +533,7 @@ body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
+/*   margin-right: -15px; */
   margin-left: -15px; }
 
 .no-gutters {
