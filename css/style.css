@@ -9529,7 +9529,7 @@ textarea.form-control {
       margin-bottom: 16px;
       font-weight: 700; }
       .blog-entry .text .heading a {
-        color: #000000; }
+        color: #fff; }
         .blog-entry .text .heading a:hover, .blog-entry .text .heading a:focus, .blog-entry .text .heading a:active {
           color: #f36c3e; }
   .blog-entry .meta > div {
@@ -9538,7 +9538,7 @@ textarea.form-control {
     margin-bottom: 0;
     font-size: 14px; }
     .blog-entry .meta > div a {
-      color: gray;
+      color: #fff;
       font-size: 15px; }
       .blog-entry .meta > div a:hover {
         color: #666666; }
