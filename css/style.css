@@ -9884,7 +9884,7 @@ textarea.form-control {
 
 /* Changes Made */
 /* Active section in orange. */
-.text-block {
+/* .text-block {
   position: absolute;
   bottom: 30px;
   right: 50px;
@@ -9893,7 +9893,7 @@ textarea.form-control {
   padding-left: 14px;
   padding-right: 140px;
 }
-
+ */
 .owl-buttons {
   display: none;
   /* font-size: 40px !important; */
@@ -10002,4 +10002,24 @@ textarea.form-control {
 #footer-color .container{
   background-color: #015845 !important;
   max-width: 100% !important;
+}
+/* Index Image tagline textblock */
+#tagline {
+  position: relative;
+  font-family: Arial;
+  width: 100%;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background-color: rgba(1, 88, 69, 0.5);  
+  padding:5px 20px ;
+  width: 100%;
+}
+.text-block p{
+  margin: auto !important;
+  font-weight: 600;
+  color: white;
 }
