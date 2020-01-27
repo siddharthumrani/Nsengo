@@ -60,7 +60,7 @@
     <h2 style="text-align: center; color:#fff; background-color: #015845 !important">Farmer's Stories </h2>
          <div class="container">
                <div class="row">
-	           <div class="col-md-6" id="funds">
+	           <div class="col-md-6 ftco-animate" id="funds">
 		       <div class="blog-entry align-self-stretch d-md-flex">
 		              <a href="blog-single" class="block-20" style="background-image: url('images/fin.jpg');">
 		              </a>
@@ -95,7 +95,7 @@
 						  </div>
 						</div>
 
-		          <div class="col-md-6 d-flex ftco-animate" id="food">
+		          <div class="col-md-6 ftco-animate" id="food">
 		            <div class="blog-entry align-self-stretch d-md-flex">
 		              <a href="#" class="block-20" style="background-image: url('images/causes-2.jpg');">
 		              </a>
@@ -130,7 +130,7 @@
 						  </div>
 						</div>
 
-	           <div class="col-md-6" id="climatechange">
+	           <div class="col-md-6 ftco-animate" id="climatechange">
 		       <div class="blog-entry align-self-stretch d-md-flex">
 		              <a href="#" class="block-20" style="background-image: url('images/climatechange.jpg');">
 		              </a>
@@ -165,7 +165,7 @@
 						</div>
 
 
-                          <div class="col-md-6" id="obsolete">
+                          <div class="col-md-6 ftco-animate" id="obsolete">
 		            <div class="blog-entry align-self-stretch d-md-flex">
 		              <a href="#" class="block-20" style="background-image: url('images/oldfarming.jpg');">
 		              </a>
@@ -199,7 +199,7 @@
 						  </div>
 						</div>
 
-                          <div class="col-md-6" id="soildeterioration">
+                          <div class="col-md-6 ftco-animate" id="soildeterioration">
 		            <div class="blog-entry align-self-stretch d-md-flex">
 		              <a href="#" class="block-20" style="background-image: url('images/soil.jpg');">
 		              </a>
@@ -233,7 +233,7 @@
 						  </div>
 						</div>
 
-                          <div class="col-md-6" id="waterscarcity">
+                          <div class="col-md-6 ftco-animate" id="waterscarcity">
 		            <div class="blog-entry align-self-stretch d-md-flex">
 		              <a href="#" class="block-20" style="background-image: url('images/drought.jpg');">
 		              </a>

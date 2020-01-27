@@ -35,18 +35,18 @@
 
 		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-light ftco-navbar-light" id="ftco-navbar">
 			<div class="container">
-			  <a class="navbar-brand" href="index.html"><img src="../images/Nlogo.png" alt="logo" width="70" height="50" /></a>
+			  <a class="navbar-brand" href="index"><img src="../images/Nlogo.png" alt="logo" width="70" height="50" /></a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="oi oi-menu"></span> Menu
 			  </button>
 		
 			  <div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a href="about.html" class="nav-link">À Propos</a></li>
-					<li class="nav-item active"><a href="farmerstories.html" class="nav-link">Histoires des petits producteurs</a></li>
-					<li class="nav-item"><a href="contributor.html" class="nav-link">Contributeurs</a></li>
-				<li class="nav-item"><a href="contact.html" class="nav-link">Contacter</a></li>
-			  <li class="nav-item"> <a href="../farmerstories.html" class="nav-link"><img src="../images/usflag.png" height="15" width="25"></a></li>
+					<li class="nav-item"><a href="about" class="nav-link">À Propos</a></li>
+					<li class="nav-item active"><a href="farmerstories" class="nav-link">Histoires des petits producteurs</a></li>
+					<li class="nav-item"><a href="contributor" class="nav-link">Contributeurs</a></li>
+				<li class="nav-item"><a href="contact" class="nav-link">Contacter</a></li>
+			  <li class="nav-item"> <a href="../farmerstories" class="nav-link"><img src="../images/usflag.png" height="15" width="25"></a></li>
 			</ul>
 			  </div>
 			</div>
@@ -62,9 +62,9 @@
          <div class="container">
                <div class="row">
 					      
-			<div class="col-md-6" id="funds">
+			<div class="col-md-6 ftco-animate" id="funds">
 		            <div class="blog-entry align-self-stretch d-md-flex">
-		              <a href="blog-single.html" class="block-20" style="background-image: url('../images/fin.jpg');">
+		              <a href="blog-single" class="block-20" style="background-image: url('../images/fin.jpg');">
 		              </a>
 		              <div class="text d-block pl-md-4">
 		              	<div class="meta mb-3">
@@ -97,7 +97,7 @@
 						  </div>
 						</div>
 
-			<div class="col-md-6" id="food">
+			<div class="col-md-6 ftco-animate" id="food">
 		            <div class="blog-entry align-self-stretch d-md-flex">
 		              <a href="#" class="block-20" style="background-image: url('../images/causes-2.jpg');">
 		              </a>
@@ -132,7 +132,7 @@
 						  </div>
 						</div>
 
-			<div class="col-md-6" id="impacts">
+			<div class="col-md-6 ftco-animate" id="impacts">
 		            <div class="blog-entry align-self-stretch d-md-flex">
 		              <a href="#" class="block-20" style="background-image: url('../images/climatechange.jpg');">
 		              </a>
@@ -166,7 +166,7 @@
 						  </div>
 						</div>
 
-			<div class="col-md-6" id="pratiques">
+			<div class="col-md-6 ftco-animate" id="pratiques">
 		            <div class="blog-entry align-self-stretch d-md-flex">
 		              <a href="#" class="block-20" style="background-image: url('../images/oldfarming.jpg');">
 		              </a>
@@ -200,7 +200,7 @@
 						  </div>
 						</div>
 
-			<div class="col-md-6" id="deterioration">
+			<div class="col-md-6 ftco-animate" id="deterioration">
 		            <div class="blog-entry align-self-stretch d-md-flex">
 		              <a href="#" class="block-20" style="background-image: url('../images/soil.jpg');">
 		              </a>
@@ -234,7 +234,7 @@
 						  </div>
 						</div>
 
-			<div class="col-md-6" id="penurie">
+			<div class="col-md-6 ftco-animate" id="penurie">
 		            <div class="blog-entry align-self-stretch d-md-flex">
 		              <a href="#" class="block-20" style="background-image: url('../images/drought.jpg');">
 		              </a>
@@ -279,7 +279,7 @@
       <div class="container">
         <div class="row">
 		
-              <h2 class="ftco-heading-2"> <a href="index.html"> <img src="../images/flogo.png" alt="logo" width="150" height="85" /> </a></h2>
+              <h2 class="ftco-heading-2"> <a href="index"> <img src="../images/flogo.png" alt="logo" width="150" height="85" /> </a></h2>
 				
               &nbsp &nbsp <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-4 " align ="left">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>

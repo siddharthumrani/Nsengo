@@ -7,26 +7,26 @@
     
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900" rel="stylesheet">
 
-    <link rel="stylesheet" href="../css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     
-    <link rel="stylesheet" href="../css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="../css/magnific-popup.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
 
-    <link rel="stylesheet" href="../css/aos.css">
-    <link rel="stylesheet" href="../css/fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/fontawesome/css/all.css">
 
-    <link rel="stylesheet" href="../css/ionicons.min.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
 
-    <link rel="stylesheet" href="../css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="../css/jquery.timepicker.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
 
     
-    <link rel="stylesheet" href="../css/flaticon.css">
-    <link rel="stylesheet" href="../css/icomoon.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/style1.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style1.css">
 	
     <link rel="stylesheet" href="./css/flag-icon.css">
   </head>
@@ -35,26 +35,26 @@
 	 <!-- 
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html"><img src="../images/Nlogo.png" alt="logo" width="250" height="125" /></a>
+	      <a class="navbar-brand" href="index"><img src="images/Nlogo.png" alt="logo" width="250" height="125" /></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	        	<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-	        	<li class="nav-item"><a href="farmerstories.html" class="nav-link">Farmer's Story</a></li>
-	        	<li class="nav-item"><a href="goals.html" class="nav-link">Goals</a></li>
-	        	<li class="nav-item"><a href="contributor.html" class="nav-link">Contributors</a></li>
-	          <li class="nav-item active"><a href="about.html" class="nav-link">About Us</a></li>
-			   <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	        	<li class="nav-item"><a href="index" class="nav-link">Home</a></li>
+	        	<li class="nav-item"><a href="farmerstories" class="nav-link">Farmer's Story</a></li>
+	        	<li class="nav-item"><a href="goals" class="nav-link">Goals</a></li>
+	        	<li class="nav-item"><a href="contributor" class="nav-link">Contributors</a></li>
+	          <li class="nav-item active"><a href="about" class="nav-link">About Us</a></li>
+			   <li class="nav-item"><a href="contact" class="nav-link">Contact</a></li>
 
 	        </ul>
 	      </div>
 	    </div>
 	  </nav>
     
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('../images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
@@ -70,36 +70,37 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-light ftco-navbar-light" id="ftco-navbar">
   <div class="container">
-    <a class="navbar-brand" href="index.html"><img src="../images/Nlogo.png" alt="logo" width="70" height="50" /></a>
+    <a class="navbar-brand" href="index"><img src="images/Nlogo.png" alt="logo" width="70" height="50" /></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="oi oi-menu"></span> Menu
     </button>
 
     <div class="collapse navbar-collapse" id="ftco-nav">
       <ul class="navbar-nav ml-auto">
-          <li class="nav-item active"><a href="about.html" class="nav-link">À Propos</a></li>
-          <li class="nav-item"><a href="farmerstories.html" class="nav-link">Histoires des petits producteurs</a></li>
-          <li class="nav-item"><a href="contributor.html" class="nav-link">Contributeurs</a></li>
-      <li class="nav-item"><a href="contact.html" class="nav-link">Contacter</a></li>
-    <li class="nav-item"> <a href="../about.html" class="nav-link"><img src="../images/usflag.png" height="15" width="25"></a></li>
+          <li class="nav-item active"><a href="about" class="nav-link">About Us</a></li>
+          <li class="nav-item"><a href="farmerstories" class="nav-link">Farmer's Story</a></li>
+          <li class="nav-item"><a href="contributor" class="nav-link">Contributors</a></li>
+      <li class="nav-item"><a href="contact" class="nav-link">Contact</a></li>
+    <li class="nav-item"> <a href="fr/about" class="nav-link"><img src="images/frflag.png" height="15" width="25"></a></li>
   </ul>
     </div>
   </div>
 </nav>
+  
 		
-	<!--
+<!--
         <div class="row d-flex mt-3">
           <div class="col-md-6 col-lg-5 d-flex">
-            <div class="img d-flex align-self-stretch align-items-center" style="background-image:url(../images/sam11.png);">
+            <div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/sam11.png);">
             </div>
           </div>
           <div class="col-md-6 col-lg-7 pl-lg-5 py-5">
             <div class="py-md-5">
               <div class="row justify-content-start pb-3">
                 <div class="col-md-12 heading-section ftco-animate">
-                  <span class="subheading">Propos NSENGO</span>
-                  <h2 class="mb-4" style="font-size: 30px;">Nous aidons à construire un écosystème autour des petits exploitants. </h2>
-                  <p>Dans une langue locale de la République du Congo, NSENGO signifie « houe ». Cet outil agricole polyvalent est indispensable aux agriculteurs qui préparent leurs champs pour la plantation et éliminent les mauvaises herbes. C'est le symbole de l'agriculture en Afrique. Tout comme la houe aide les plantes à devenir solides et en bonne santé, NSENGO vise à créer un écosystème autour des 550 millions de petits producteurs qui sont l'une des plus grandes forces de l'Afrique dans la mesure où ils produisent 80% de la nourriture consommée à travers le continent. </p>
+                  <span class="subheading">About NSENGO</span>
+                  <h2 class="mb-4" style="font-size: 30px;">We help to build an ecosystem around the smallholder farmers </h2>
+                  <p>In the language of the Republic of Congo, “nsengo” means “hoe.” This multi-purpose farming tool is indispensable for farmers as they prepare their fields for planting and remove weeds. It’s the symbol of farming in Africa. Just as the hoe helps plants grow strong and healthy, NSENGO aims to help smallholder farmers grow their businesses.</p>
                 </div>
               </div>
             </div>
@@ -142,37 +143,49 @@
           
         </div>
       </div>
-    </section> -->
+    </section> 
+-->
 
     <section class="ftco-mission">
     	<div class="container">
     		<div class="row">
 
-			<div class="col-md-6 py-4 py-md-5 img" style="background-image: url(../images/woman_with_hoe_v3.jpg)" ></div>    			
+			<div class="col-md-6 py-4 py-md-5 img" style="background-image: url(images/woman_with_hoe_v3.jpg)" ></div>    			
     			<div class="col-md-6 py-4 py-md-5 ftco-animate" >
     				<div class="py-md-4 pb-md-5 " >
-					<h3>Propos NSENGO </h3>
-			            	<h2 class="mb-4" style="font-size: 20px;">Un monde d'opportunités pour les petits agriculteurs </h2>
-	    				<p> Dans une langue locale de la République du Congo, NSENGO signifie « houe ». Cet outil agricole polyvalent est indispensable aux agriculteurs qui préparent leurs champs pour la plantation et éliminent les mauvaises herbes. C'est le symbole de l'agriculture en Afrique. Tout comme la houe aide les plantes à devenir solides et en bonne santé, NSENGO vise à créer un écosystème autour des 550 millions de petits producteurs qui sont l'une des plus grandes forces de l'Afrique dans la mesure où ils produisent 80% de la nourriture consommée à travers le continent.</p>
+					<h3>About NSENGO </h3>
+			            	<h2 class="mb-4" style="font-size: 20px;">A world of opportunities for smallholder farmers </h2>
+	    				<p> In the local language of the Republic of Congo, NSENGO means “hoe.” This multi-purpose farming tool is indispensable for farmers as they prepare their fields for planting and remove weeds. It’s the symbol of farming in Africa. Just as the hoe helps plants grow strong and healthy, NSENGO aims at building an ecosystem around about 550 million smallholder farmers. They are one of Africa’s greatest strengths as they produce 80% of the food consumed across the continent.</p>
     				</div>
     			</div>
 
-    			<div class="col-md-6 py-4 py-md-5 ftco-animate">
+   			<div class="col-md-6 py-4 py-md-5 ftco-animate">
     				<div class="py-md-4 pb-md-5">
-					<h3>La Vision</h3>
-	    				<p>Notre vision est de contribuer à la révolution verte en Afrique en aidant les petits producteurs à nourrir leur continent et à sortir du cycle de la pauvreté. </p>
+					<h3>Vision</h3>
+	    				<p>Our vision is to contribute to the green revolution in Africa by helping smallholder farmers feed their continent and live out of poverty.</p>
     				</div>
 			</div>
-			<div class="col-md-6 py-4 py-md-5 img" style="background-image: url(../images/cabbage_man_v1.jpg)" id="vision"></div>
+			<div class="col-md-6 py-4 py-md-5 img" style="background-image: url(images/cabbage_man_v1.jpg)" id="vision"></div>
 
-			<div class="col-md-6 py-4 py-md-5 img" style="background-image: url(../images/market_woman_v2.jpg)" ></div>    			
+			<div class="col-md-6 py-4 py-md-5 img" style="background-image: url(images/market_woman_v2.jpg)" ></div>    			
     			<div class="col-md-6 py-4 py-md-5 ftco-animate" >
     				<div class="py-md-4 pb-md-5 " >
-					<h3>La Mission </h3>
-	    				<p>Nous sommes une entreprise sociale qui a pour but de connecter les petits producteurs à un monde d’opportunités, afin de leur permettre d’améliorer leur productivité ainsi que leurs revenus.<br><br> L'agriculture étant au cœur de la réduction de la pauvreté en Afrique, nous nous engageons à contribuer à l’atteinte des Objectifs de Développement Durable (ODD) <a href="https://www.un.org/sustainabledevelopment/poverty/">#1 (La Pauvreté)</a> et <a href="https://www.un.org/sustainabledevelopment/hunger/">#2 (Faim)</a>.  Nous aiderons ainsi à nourrir 1,5 milliards de personnes sur le continent d'ici 2030 et 2 milliards d'ici 2050.</p>
-	    				
+					<h3>Mission </h3>
+	    				<p>We are a social enterprise connecting smallholder farmers to a world of opportunity, so they can improve their productivity and incomes.<br><br> Agriculture being the heart of the solution to Africa’s poverty, we commit to contributing to Sustainable Development Goals (SDG) #1 (Poverty) and #2 (Hunger). We will help feed on the continent 1.5 billion people by 2030 and 2 billion by 2050.</p>
     				</div>
     			</div>
+			<div class="col-md-6 py-4 py-md-5 ftco-animate">
+				<div class="py-md-4 pb-md-5 " >
+				       <h3>What We Do </h3>
+				       <p class="mb-4">Digital financial inclusion to help farmers borrow at reasonable costs.</p>
+				       <p class="mb-4">Global best farming practices to increase crop yields.</p>
+				       <p class="mb-4">High-quality, timely weather data to improve planting.</p>
+				       <p class="mb-4">Artificial intelligence access to protect crops and increase yields.</p>
+				       <p class="mb-4">Effective tools and services from agricultural partners to control costs.</p>
+				       <p class="mb-4">Microinsurance to insure crops against unforeseen crop damage and risks.</p>
+				</div>
+			</div>
+			<div class="col-md-6 py-4 py-md-5 img" style="background-image: url(images/farmer_digital.jpg)" id="vision"></div>
     		</div>
     	</div>
     </section>
@@ -183,7 +196,7 @@
       <div class="container">
         <div class="row ftco-animate justify-content-center">
         	<div class="col-md-4 d-flex">
-        		<div class="testimony-img" style="background-image: url(../images/.png);"></div>
+        		<div class="testimony-img" style="background-image: url(images/.png);"></div>
         	</div>
           <div class="col-md-6 py-5">
           	<div class="heading-section heading-section-white pt-4 ftco-animate">
@@ -196,7 +209,7 @@
                     <p class="mb-4">Smallholder farmers are one of Africa’s greatest strengths. They produce 80% of the food consumed across the continent!</p>
                   </div>
                   <div class="d-flex">
-	                  <div class="user-img" style="background-image: url(../images/sam11.png)">
+	                  <div class="user-img" style="background-image: url(images/sam11.png)">
 	                  </div>
 	                  <div class="pos ml-3">
 	                  	<p class="name">ABC</p>
@@ -211,7 +224,7 @@
                     <p class="mb-4">Half a billion smallholder farmers operate farms of 2 hectares or less. Yet, 240 million Africans are still without food, and the number will climb to 320 million by 2025.</p>
                   </div>
                   <div class="d-flex">
-	                  <div class="user-img" style="background-image: url(../images/sam11.png)">
+	                  <div class="user-img" style="background-image: url(images/sam11.png)">
 	                  </div>
 	                  <div class="pos ml-3">
 	                  	<p class="name">ABC</p>
@@ -226,7 +239,7 @@
                     <p class="mb-4">Smallholder farmers struggle against the persistent cycle of hunger and poverty because of low crop yields and unpredictable profits.</p>
                   </div>
                   <div class="d-flex">
-	                  <div class="user-img" style="background-image: url(../images/sam11.png)">
+	                  <div class="user-img" style="background-image: url(images/sam11.png)">
 	                  </div>
 	                  <div class="pos ml-3">
 	                  	<p class="name">ABC</p>
@@ -241,7 +254,7 @@
                     <p class="mb-4">These smallholder farmers are a majorly underserved and underbanked population.</p>
                   </div>
                   <div class="d-flex">
-	                  <div class="user-img" style="background-image: url(../images/sam11.png)">
+	                  <div class="user-img" style="background-image: url(images/sam11.png)">
 	                  </div>
 	                  <div class="pos ml-3">
 	                  	<p class="name">ABC</p>
@@ -256,7 +269,7 @@
                     <p class="mb-4">Because they struggle against high interest rates and collateral requirements, smallholder farmers experience insufficient access to credit.</p>
                   </div>
                   <div class="d-flex">
-	                  <div class="user-img" style="background-image: url(../images/sam11.png)">
+	                  <div class="user-img" style="background-image: url(images/sam11.png)">
 	                  </div>
 	                  <div class="pos ml-3">
 	                  	<p class="name">ABC</p>
@@ -286,10 +299,10 @@
         	<div class="col-md-4">
         			<div class="item">
 		        		<a href="about.html" class="causes text-center">
-		        			<div class="img" style="background-image: url(../images/profile.png);"></div>
+		        			<div class="img" style="background-image: url(images/profile.png);"></div>
 		        			<h2>ABC CEO</h2>
                   <p>Co-Founder with a passion to transform the agriculture in Africa. Law and Financial expert who has a rich experience working at the United Nations to implement and monitor the UNDP goals.</p>
-                  <img src="../images/lkin.png">
+                  <img src="images/lkin.png">
 		        		</a>
         			</div>
 					</div>
@@ -297,10 +310,10 @@
 					<div class="col-md-4">
         			<div class="item">
 		        		<a href="about.html" class="causes text-center">
-		        			<div class="img" style="background-image: url(../images/profile.png);"></div>
+		        			<div class="img" style="background-image: url(images/profile.png);"></div>
 		        			<h2>ABC CEO</h2>
                   <p>Co-Founder with a passion to transform the agriculture in Africa. Law and Financial expert who has a rich experience working at the United Nations to implement and monitor the UNDP goals.</p>
-                  <img src="../images/lkin.png">
+                  <img src="images/lkin.png">
 		        		</a>
         			</div>
 					</div>
@@ -308,10 +321,10 @@
 					<div class="col-md-4">
         			<div class="item">
 		        		<a href="about.html" class="causes text-center">
-		        			<div class="img" style="background-image: url(../images/profile.png);"></div>
+		        			<div class="img" style="background-image: url(images/profile.png);"></div>
 		        			<h2>ABC CEO</h2>
                   <p>Co-Founder with a passion to transform the agriculture in Africa. Law and Financial expert who has a rich experience working at the United Nations to implement and monitor the UNDP goals.</p>
-                  <img src="../images/lkin.png">
+                  <img src="images/lkin.png">
 							
 		        		</a>
 						
@@ -326,7 +339,7 @@
       <div class="container">
         <div class="row">
 		
-              <h2 class="ftco-heading-2"> <a href="index.html"> <img src="../images/flogo.png" alt="logo" width="150" height="85" /> </a></h2>
+              <h2 class="ftco-heading-2"> <a href="index"> <img src="images/flogo.png" alt="logo" width="150" height="85" /> </a></h2>
 				
               &nbsp &nbsp <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-4 " align ="left">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
@@ -364,21 +377,21 @@ function topFunction() {
 }
 </script>
 
-  <script src="../js/jquery.min.js"></script>
-  <script src="../js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="../js/popper.min.js"></script>
-  <script src="../js/bootstrap.min.js"></script>
-  <script src="../js/jquery.easing.1.3.js"></script>
-  <script src="../js/jquery.waypoints.min.js"></script>
-  <script src="../js/jquery.stellar.min.js"></script>
-  <script src="../js/owl.carousel.min.js"></script>
-  <script src="../js/jquery.magnific-popup.min.js"></script>
-  <script src="../js/aos.js"></script>
-  <script src="../js/jquery.animateNumber.min.js"></script>
-  <script src="../js/scrollax.min.js"></script>
-  <script src="../https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="../js/google-map.js"></script>
-  <script src="../js/main.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script> 
   </body>
 </html>
