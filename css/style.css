@@ -10025,3 +10025,13 @@ textarea.form-control {
   font-weight: 600;
   color: white;
 }
+
+/* About Us page  */
+.ftco-mission .mmmt{
+  margin-top:80px;
+}
+@media (max-width: 768px) {
+  .ftco-mission .mmmt{
+    margin-top:0px;
+  }
+}
