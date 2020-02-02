@@ -10014,15 +10014,15 @@ textarea.form-control {
 
 .text-block {
   position: absolute;
-  bottom: 0px;
-  right: 0px;
-  background-color: rgba(1, 88, 69, 0.5);  
+  bottom: 40px;
+  left: 20px;
+  background-color: rgba(1, 88, 69, 0.8);  
   padding:5px 20px ;
-  width: 100%;
 }
 .text-block p{
   margin: auto !important;
-  font-weight: 600;
+  font-weight: 900;
+  font-size: 30px;
   color: white;
 }
 
@@ -10034,4 +10034,10 @@ textarea.form-control {
   .ftco-mission .mmmt{
     margin-top:0px;
   }
+.text-block p{
+  margin: auto !important;
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+}
 }
