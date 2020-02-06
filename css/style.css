@@ -9894,8 +9894,8 @@ textarea.form-control {
   color: white;
   padding-left: 14px;
   padding-right: 140px;
-}
- */
+} */
+
 .owl-buttons {
   display: none;
   /* font-size: 40px !important; */
@@ -10005,7 +10005,9 @@ textarea.form-control {
   background-color: #015845 !important;
   max-width: 100% !important;
 }
-/* Index Image tagline textblock */
+
+
+/* Index Image over text */
 #tagline {
   position: relative;
   font-family: Arial;
@@ -10018,6 +10020,7 @@ textarea.form-control {
   left: 20px;
   background-color: rgba(243, 108, 62, 0.8);  
   padding:5px 20px ;
+  /* width: 100%; */
 }
 .text-block p{
   margin: auto !important;
@@ -10032,19 +10035,6 @@ textarea.form-control {
 }
 @media (max-width: 768px) {
   .ftco-mission .mmmt{
-    margin-top:0px;
-  }
-.text-block p{
-  margin: auto !important;
-  font-weight: 500;
-  font-size: 20px;
-  color: white;
-}
-margin: 0px !important;
-  }
-
-
-.ftco-mission .mmmt{
     margin-top:0px;
   }
   #fitco .container{
@@ -10066,23 +10056,10 @@ margin: 0px !important;
     padding: 0px !important;
     margin: 0px !important;
   }
-#fitco .container{
-    width:100% !important;
-    margin: 0px;
-    padding: 0px;
-  }
-  #fitco p{
-    margin: 0px 10%;
-  }
-  #fitco h1, h2{
-    margin: 0px 10%;
-  }
-  .img,
-  .blog-img,
-  .user-img{
-    height: 210px;
-    width: 100% !important;
-    padding: 0px !important;
-    margin: 0px !important;
+  .text-block p{
+    margin: auto !important;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
   }
 }
