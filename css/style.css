@@ -10018,7 +10018,7 @@ textarea.form-control {
   position: absolute;
   bottom: 40px;
   left: 20px;
-  background-color: rgba(243, 108, 62, 0.8);  
+  background-color: rgba(243, 108, 62, 0.8);
   padding:5px 20px ;
   /* width: 100%; */
 }
@@ -10026,7 +10026,7 @@ textarea.form-control {
   margin: auto !important;
   font-weight: 900;
   font-size: 30px;
-  color: white;
+  color: #015845;
 }
 
 /* About Us page  */
