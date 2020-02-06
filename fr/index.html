@@ -42,7 +42,7 @@
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-              <li class="nav-item"><a href="about.html" class="nav-link">À Propos</a></li>
+              <li class="nav-item"><a href="about.html" class="nav-link">A Propos</a></li>
               <li class="nav-item"><a href="farmerstories.html" class="nav-link">Histoires des petits producteurs</a></li>
               <li class="nav-item"><a href="contributor.html" class="nav-link">Contributeurs</a></li>
 			    <li class="nav-item"><a href="contact.html" class="nav-link">Contacter</a></li>
@@ -58,7 +58,6 @@
 
 	
 	<!-- <div class="site-wrap"  id="home-section">
-
     <div class="site-mobile-menu site-navbar-target">
       <div class="site-mobile-menu-header">
         <div class="site-mobile-menu-close mt-3">
@@ -70,7 +69,6 @@
    
       
     <!-- <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
-
       <div class="container">
         <div class="row align-items-center position-relative">
           
@@ -98,21 +96,20 @@
               <span class="icon-menu h3"></span>
             </a>
           </div>
-
         </div>
       </div>
       
     </header> -->
-<!--     <div style="width: 100%;">
+<!-- <div style="width: 100%;">
      	<a href="#"><img src="../images/coverpage_happy_farmer.jpg" alt="Image" height="550" width="100%" >  
 	</a>
     </div> -->
 	<div id="tagline" style="width: 100%;">
 	<a href="#main-section">
-		<img src="../images/coverpage_happy_farmer.jpg" alt="Nature" height="750" width="100%">
+		<img src="../images/coverpage_happy_farmer.jpg" alt="Nature" height="550" width="100%">
 		<div class="text-block">
 			<div class="row justify-content-center">
-				<p>Un monde d'opportunités pour les petits agriculteurs</p>
+				<p>Un monde d'opportunités<br> pour les petit producteurs</p>
 			</div>
 		</div>
 	</a>
@@ -369,7 +366,25 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 </script>
-
+//******
+<script>
+  jQuery(function($) {
+  
+    // The speed of the scroll in milliseconds
+    const speed = 100;
+  
+    // Find links that are #anchors and scroll to them
+    $('a[href^="#"]')
+      .not('.lp-pom-form .lp-pom-button')
+      .unbind('click.smoothScroll')
+      .bind('click.smoothScroll', function(event) {
+        event.preventDefault();
+        const href = $(this).attr('href').split('#');
+        $('html, body').animate({ scrollTop: $(`#${href[1]}`).offset().top }, speed);
+      });
+  });
+</script>
+//******
   <script src="../js/jquery.min.js"></script>
   <script src="../js/jquery-migrate-3.0.1.min.js"></script>
   <script src="../js/popper.min.js"></script>
